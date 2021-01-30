@@ -1,4 +1,8 @@
 {
+  // eslint
+  "eslint.autoFixOnSave": true,
+  "eslint.run": ["onSave"],
+  "eslint.format.enable": true,
   // suggestions
   // "suggest.echodocSupport": true,
   // TODO add more labels and give them cool glyphs
@@ -114,7 +118,7 @@
     }
   },
 
-  "bookmark.sign": "",
+  //"bookmark.sign": "",
 
   //coc-emoji
   "coc.source.emoji.filetypes": ["markdown"]
