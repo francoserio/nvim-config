@@ -7,7 +7,14 @@ if empty(glob('~/.config/nvim/autoload/plug.vim'))
 endif
 
 call plug#begin('~/.config/nvim/autoload/plugged')
-
+    " BufOnly
+    Plug 'vim-scripts/BufOnly.vim'
+    " Vim test
+    Plug 'vim-test/vim-test'
+    " Vim polyglot
+    Plug 'sheerun/vim-polyglot'
+    " Nerdtree
+    Plug 'preservim/nerdtree'
     " Better Comments
     Plug 'tpope/vim-commentary'
     " Change dates fast
