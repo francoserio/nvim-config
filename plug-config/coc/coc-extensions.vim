@@ -28,4 +28,5 @@ let g:coc_global_extensions = [
   \ ]
   " \ 'coc-tabnine',
   " \ 'coc-highlight',
+  " \ 'coc-bookmark',
 
